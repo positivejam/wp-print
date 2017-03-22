@@ -183,7 +183,9 @@ function print_content($display = true) {
 		add_shortcode('donotprint', 'print_donotprint_shortcode2');
 		remove_shortcode('print_link');
 		add_shortcode('print_link', 'print_link_shortcode2');
+		$content = apply_filters('wp_print_before_the_content_filter', $content);
 		$content = apply_filters('the_content', $content);
+		$content = apply_filters('wp_print_after_the_content_filter', $content);
 		$content = str_replace(']]>', ']]&gt;', $content);
 		if(!print_can('images')) {
 			$content = remove_image($content);
