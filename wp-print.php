@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: WP-Print
+Plugin Name: WP-Print (fork by Jordan Kohl)
 Plugin URI: http://lesterchan.net/portfolio/programming/php/
 Description: Displays a printable version of your WordPress blog's post/page.
 Version: 2.58
-Author: Lester 'GaMerZ' Chan
+Author: Lester 'GaMerZ' Chan (fork by Jordan Kohl)
 Author URI: http://lesterchan.net
 Text Domain: wp-print
 */
